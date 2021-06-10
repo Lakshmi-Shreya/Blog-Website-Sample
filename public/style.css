@@ -1,9 +1,9 @@
 body{
     margin: 0;
-    background-color:aliceblue;
+    background-color:white;
 }
 .navbar{
-    background-color: #b1b1b1;
+    background-color:beige ;
     height:150px;
     margin: 0px;
 }
@@ -60,7 +60,7 @@ a{
 }
 .footer{
     height:150px;
-    background-color: #dddddd;
+    background-color: beige;
     margin: 0;
     position: relative;
     top:450px;
