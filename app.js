@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 // to enable express to access local files other than just only main js file
 app.use(express.static("public"));
 
-// let posts=[];
+
 
 const homeStarting="* Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta omnis, dolor saepe deserunt atque ipsa enim reiciendis neque minima libero excepturi magnam molestiae et? Veritatis corrupti quis exercitationem neque voluptatum?Natus quo, sit laborum itaque, libero minima dolores error non nobis fuga deserunt eos corrupti exercitationem quaerat adipisci, maiores velit! "
 const aboutStarting="** Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta omnis, dolor saepe deserunt atque ipsa enim reiciendis neque minima libero excepturi magnam molestiae et? Veritatis corrupti quis exercitationem neque voluptatum?Natus quo, sit laborum itaque, libero minima dolores error non nobis fuga deserunt eos corrupti exercitationem quaerat adipisci, maiores velit! "
