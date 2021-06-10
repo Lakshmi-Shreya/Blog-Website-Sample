@@ -1,0 +1,13 @@
+<!-- including ejs layouts of header and footer below -->
+<%- include("partials/header")-%>
+<h1 class="headingPage">Home</h1>
+<p><%=content%></p>
+<!-- traversing through passed array of objects  by forEach() -->
+<% arrPosts.forEach(function(post){%>
+   <h2 class="headPost"><%=post.title%></h2>
+<!-- truncating the content of a post to 100 characters to be shown on home page -->
+   <%  const truncateContent=(post.content).substring(0,100)+" ..."; %>
+   <p class="paraPost"><%=truncateContent%> <a id="readLink" href="/posts/<%=post._id%>"> Read More</a> </p>
+
+<% }); %>
+<%- include("partials/footer") -%>
